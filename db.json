@@ -1,0 +1,20 @@
+{
+    "hostname": "RouterA",
+    "interfaces": {
+        "Loopback0": {
+            "ipv4-address": "1.1.1.1",
+            "subnet-mask": "255.255.255.255",
+            "shutdown": "no"
+        },
+        "GigabitEthernet0/0": {
+            "ipv4-address": "192.168.12.1",
+            "subnet-mask": "255.255.255.0",
+            "shutdown": "no"
+        },
+        "GigabitEthernet0/1": {
+            "ipv4-address": "10.0.0.1",
+            "subnet-mask": "255.255.255.0",
+            "shutdown": "yes"
+        }
+    }
+}
